@@ -122,12 +122,17 @@ h2 {
     margin-top:30px;
     align-items:center;
     width: 100%;
-    border: 1px solid #000;
+    border: 1px solid transparent;
     }
 
 th, td {
         width: 25%;
         text-align: left;
         vertical-align: top;
-        border: 1px solid #000;
+        border: 1px solid transparent;
      }
+
+.playerdata {
+    border: 1px solid transparent;
+    padding: 10px;
+ }
